@@ -11,8 +11,9 @@ export default {
         'secondary': '#EFE7EB',
       },
       screens: {
-        'mobile': '414px',
-        'pc': '1440px',
+        'sm': '414px',
+        'md': '768px',
+        'lg': '1440px',
       }
     },
   },
