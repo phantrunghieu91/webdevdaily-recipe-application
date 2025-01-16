@@ -15,7 +15,7 @@ const classes = computed(() => {
   return [
     classProp,
     isFullWidth ? 'w-full' : 'max-w-[1440px] mx-auto',
-    disabledDefaultPadding ? '' : 'px-[.625rem] lg:px-0'
+    disabledDefaultPadding ? '' : 'px-4 lg:px-0'
   ]
 })
 </script>
