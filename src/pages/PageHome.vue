@@ -14,7 +14,8 @@ const handleScrollToRecipeList = () : void => {
 </script>
 <template>
   <OrganismHeroBanner :button-text="'Browse Recipes'" :button-click-handler="handleScrollToRecipeList"
-    :banner-class="'py-16 bg-gray-200'" :banner-inner-class="'grid grid-cols-1 gap-10 md:grid-cols-2 md:gap-16'"
+    :banner-class="'py-16 bg-gray-200'" 
+    :banner-inner-class="'grid grid-cols-1 gap-10 md:grid-cols-2 md:gap-16'"
     :banner-title="'Master the Kitchen with Ease: Unleash Your Inner Chef Today!'"
     :banner-description="'Discover recipes helping you to find the easiest way to cook.'"
     :banner-image-url="'https://cdn.dummyjson.com/recipe-images/1.webp'" />

@@ -1,6 +1,5 @@
 <template>
   <div :class="classes">
-    <!-- Show placeholder while loading or on error -->
     <img 
       v-if="isLoading || hasError" 
       :src="placeholder" 
@@ -8,7 +7,6 @@
       class="w-full h-full object-cover animate-pulse" 
     />
 
-    <!-- Show actual image when loaded and no error -->
     <img
       v-show="!isLoading && !hasError" 
       :src="src"
