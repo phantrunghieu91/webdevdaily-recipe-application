@@ -1,14 +1,11 @@
 <script setup lang="ts">
-import { RouterLink, RouterView } from 'vue-router'
+import LayoutDefault from '@/layout/LayoutDefault.vue'
+import { RouterView } from 'vue-router'
+
 </script>
 
 <template>
-  <header>
-      <nav>
-        <RouterLink to="/">Home</RouterLink>
-        <RouterLink to="/about">About</RouterLink>
-      </nav>
-  </header>
-
-  <RouterView />
+  <LayoutDefault>
+    <RouterView />
+  </LayoutDefault>
 </template>
